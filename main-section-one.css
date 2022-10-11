@@ -48,3 +48,25 @@ main {
   border-left: none;
   border-right: none;
 }
+
+
+@media (min-width: 590px)and (max-width: 768px){
+  .hero-glasstube{
+    width: 20vw;
+  }
+}
+@media (min-width: 767px)and (max-width: 1024px){
+  .hero-glasstube{
+    width: 40vw;
+  }
+}
+
+@media (min-width: 1025px)and (max-width: 1200px){
+  .hero-glasstube{
+    width: 60vw;
+  }}
+
+  @media (min-width: 1201px){
+    .hero-glasstube{
+      width: 80vw;
+    }}

@@ -32,3 +32,15 @@
     color: var(--light-green-color);
 
 }
+.bottom-glass-heading-two, .bottom-glass-para{
+  color: white;
+}
+
+
+@media (min-width: 888px){
+ 
+  .second-grid{
+width: 40%;
+  }   
+  }
+
