@@ -8,18 +8,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  :root{
-    --dark-green-color:#28464b;
-    --middle-green-color:#6da6b0;
-    --light-green-color:#c5f5fd;
+:root {
+  --dark-green-color: #28464b;
+  --middle-green-color: #6da6b0;
+  --light-green-color: #c5f5fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: url(/image/bodyimage.png);
+  padding-top: 37%;
+}
+@media (min-height: 280px) and (max-height: 375px) {
+  body {
+    padding-top: 18%;
   }
-  body{
-    font-family: 'Roboto', sans-serif;
-    background: url(/image/bodyimage.png);
-    padding-top: 8.5em;
+}
+
+@media (min-width: 280px) {
+  body {
+    padding-top: 15%;
   }
+}
+@media (min-width: 1077px) {
+  body {
+    padding-top: 13%;
+  }
+}

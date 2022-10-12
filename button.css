@@ -1,8 +1,8 @@
 .neon-button {
-    font-size: 1rem;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
   color: hsl(189, 30%, 56%);
   border: hsl(189, 30%, 56%) 0.125em solid;
   padding: 0.25em 1em;
@@ -47,8 +47,8 @@
   text-shadow: none;
 }
 .neon-button:hover::before,
-.neon-button:focus::before{
-    opacity: 1;
+.neon-button:focus::before {
+  opacity: 1;
 }
 .neon-button:hover::after,
 .neon-button:focus::after {
